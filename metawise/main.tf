@@ -121,6 +121,9 @@ resource "aws_s3_bucket" "log_bucket" {
   }
 
   tags = var.common_tags
+  versioning {
+    enabled = false
+  }
 }
 
 
