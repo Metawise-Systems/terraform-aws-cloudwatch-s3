@@ -102,7 +102,7 @@ resource "aws_cloudwatch_log_group" "demo" {
 
   tags = {
     Environment = "production"
-    Application = "serviceA"
+    Application = "service"
   }
 }
 
