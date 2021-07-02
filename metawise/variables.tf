@@ -1,5 +1,5 @@
 variable "cloudwatch_name" {
-  description = ""
+  description = "1"
   type        = string
   default     = "metawise-demo"
 }
